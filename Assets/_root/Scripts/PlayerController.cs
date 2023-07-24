@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
 {
     public float speed;
     public float jumpSpeed;
-    public CharacterController charController;
-    public Vector3 directionVector;
+    private CharacterController charController;
+    private Vector3 directionVector;
     public float gravityScale;
 
     // Start is called before the first frame update
